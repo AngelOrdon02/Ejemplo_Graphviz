@@ -1,0 +1,16 @@
+digraph G{
+A[label="Tarea 1", shape=Mdiamond, style=filled, fillcolor = darkseagreen1]
+B[label="201905741", shape=ellipse, style=filled, fillcolor = gold]
+C[label="Angel Geovanny", shape=ellipse, style=filled, fillcolor = lemonchiffon2]
+D[label="Ordon Colchaj", shape=ellipse, style=filled, fillcolor = lemonchiffon2]
+F[label="Lenguajes Formales y de Programacion", shape=house, style=filled, fillcolor = snow2]
+G[label="B-", shape=Msquare, style=filled, fillcolor = paleturquoise1]
+H[label="A", shape=Mcircle, style=filled, fillcolor = paleturquoise1]
+A->B
+B->C
+B->D
+C->F
+D->F
+F->G
+G->H
+}
